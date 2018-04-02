@@ -1,0 +1,58 @@
+{
+    "name": "iroute",
+    "version": "0.0.1",
+    "description": "Baishu's own route module - iroute in short :)",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "lint": "jshint src test",
+        "test": "karma start",
+        "start": "webpack",
+        "server": "webpack-dev-server --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/baishusama/iroute.git"
+    },
+    "keywords": [
+        "route"
+    ],
+    "author": "baishusama <baishusama@outlook.com> (http://baishusama.github.io/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/baishusama/iroute/issues"
+    },
+    "homepage": "https://github.com/baishusama/iroute#readme",
+    "devDependencies": {
+        "autoprefixer": "^8.2.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "browserify": "^16.1.1",
+        "css-loader": "^0.28.11",
+        "jasmine-core": "^3.1.0",
+        "jshint": "^2.9.5",
+        "json-server": "^0.12.1",
+        "karma": "^2.0.0",
+        "karma-browserify": "^5.2.0",
+        "karma-chrome-launcher": "^2.2.0",
+        "karma-jasmine": "^1.1.1",
+        "karma-jshint-preprocessor": "0.0.6",
+        "karma-phantomjs-launcher": "^1.0.4",
+        "mockjs": "^1.0.1-beta3",
+        "phantomjs-prebuilt": "^2.1.16",
+        "postcss-loader": "^2.1.3",
+        "sinon": "^4.4.2",
+        "style-loader": "^0.20.3",
+        "watchify": "^3.11.0",
+        "webpack": "^4.4.1",
+        "webpack-cli": "^2.0.13",
+        "webpack-dev-server": "^3.1.1"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1",
+        "lodash": "^4.17.5"
+    }
+}
